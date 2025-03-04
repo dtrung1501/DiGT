@@ -1,0 +1,15 @@
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.csproj.AssemblyReference.cache
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\MainWindow.g.cs
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\App.g.cs
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1_MarkupCompile.cache
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1_MarkupCompile.lref
+D:\WPF tutorial\Test_autorun1\Test_autorun1\bin\Debug\Test_autorun1.exe.config
+D:\WPF tutorial\Test_autorun1\Test_autorun1\bin\Debug\Test_autorun1.exe
+D:\WPF tutorial\Test_autorun1\Test_autorun1\bin\Debug\Test_autorun1.pdb
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\MainWindow.baml
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.g.resources
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.Properties.Resources.resources
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.csproj.GenerateResource.cache
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.csproj.CoreCompileInputs.cache
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.exe
+D:\WPF tutorial\Test_autorun1\Test_autorun1\obj\Debug\Test_autorun1.pdb

@@ -12,12 +12,15 @@
             <ColumnDefinition Width="250"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0" >
+            
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="20"></RowDefinition>
             </Grid.RowDefinitions>
-            <Border Grid.Row="0" BorderBrush="Blue" BorderThickness="2">
+            <Border Grid.Row="0" BorderBrush="Blue" 
+                    Margin="0 0 -2 0"
+                    BorderThickness="2">
                 <Label Content="Image" 
                        FontSize="12"
                        HorizontalAlignment="Center">
@@ -64,7 +67,57 @@
             </Grid>
         </Grid>
         <Grid Grid.Column="1">
-            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" 
+                    BorderBrush="Blue"
+                    BorderThickness="2">
+                <Label Content="Configuration"
+                       HorizontalAlignment="Center"
+                       FontSize="14"/>
+            </Border>
+            <Grid Grid.Row="1">
+                <Grid x:Name="GridLayer1"
+                      Margin="10" 
+                      Background="LightGray"/>
+                <Grid x:Name="GridLayer2"
+                      Margin="10,50,10,10" 
+                      Background="White"/>
+                <Grid x:Name="GridLayer3"
+                      Margin="37"/>
+                <TreeView x:Name="TrvNavigation" 
+                          SelectedItemChanged="TrvNavigation_SelectedItemChanged" 
+                          MouseDoubleClick="TrvNavigation_MouseDoubleClick"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="30"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="AFOV" 
+                            x:Name="AddFOV" 
+                            Click="AddFOV_Click" 
+                            Grid.Column="0"/>
+                    <Button Content="ASMD" 
+                            x:Name="AddSMD" 
+                            Click="AddSMD_Click" 
+                            Grid.Column="1"/>
+                    <Button Content="RMove" 
+                            x:Name="RMove" 
+                            Click="RMove_Click" 
+                            Grid.Column="2"/>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 </Window>
